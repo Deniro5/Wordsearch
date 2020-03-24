@@ -21,10 +21,6 @@
   font-size: 18px;
 }
 
-.test {
-  background: white;
-}
-
 .wordBankContainer {
   width: 200px;
   text-align: left;
@@ -38,6 +34,29 @@
   width: 90px;
   margin: auto;
   margin: 9px 5px;
+}
+
+.wordBankContainer .found {
+  color: green;
+  text-decoration: line-through;
+}
+
+.wordBankContainer button {
+  margin-top: 30px;
+  height: 30px;
+  width: 150px;
+  border: black 1px solid;
+  color: black;
+  border-radius: 2px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.wordBankContainer button:hover {
+  background: whitesmoke;
 }
 
 body {

@@ -1,0 +1,16 @@
+.wordGridContainer {
+  border:1px solid black;
+  width:500px;
+  height:500px;
+  margin:auto;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  p {
+    display:inline-block;
+    margin:10px;
+    height:15px;
+    width:15px;
+    font-size:18px;
+  }
+}

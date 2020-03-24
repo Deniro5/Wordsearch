@@ -1,0 +1,33 @@
+.wordBankContainer {
+  width:200px;
+  text-align: left;
+  margin-left:50px;
+  display:inline-block;
+  vertical-align: top;
+  p {
+    display: inline-block;
+    width: 90px;
+    margin:auto;
+    margin:9px 5px;
+  }
+  .found {
+   color: green;
+   text-decoration: line-through;
+  }
+  button {
+    margin-top:30px;
+    height:30px;
+    width:150px;
+    border:black 1px solid;
+    color:black;
+    border-radius: 2px;
+    background:white;
+    cursor: pointer;
+    font-size: 13px;
+    transition:0.1s;
+    &:hover {
+      background:rgb(245, 245, 245);
+    }
+  }
+
+}
